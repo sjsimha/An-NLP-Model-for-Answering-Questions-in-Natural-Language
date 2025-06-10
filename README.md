@@ -29,7 +29,5 @@ Initial training showed strong learning ability, with high training accuracy (>9
 - Testing accuracy improved significantly to 65%, reducing overfitting.
 
 Loss and accuracy curves for this improved model are shown below.
-<img src="assets/charts.png" style="width:50% height:auto"/>
 
-## References
-For further details, refer to the original [paper](https://arxiv.org/abs/1606.03126) on Key-Value Memory Networks.
+<img src="assets/charts.png" style="width:50% height:auto"/>
