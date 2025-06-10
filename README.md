@@ -23,5 +23,12 @@ The model is based on **Key-Value Memory Networks**, a neural architecture that 
 ## Why KVMemNets?
 KVMemNets allow dynamic data updates without retraining. Though superseded by transformers, they offer an excellent foundation for understanding self-attention mechanisms.
 
+## Results
+Initial training showed strong learning ability, with high training accuracy (>90%) but lower testing accuracy (~50%), indicating overfitting. To address this, dropout layers were added introducing noise to improve robustness.
+- Training accuracy decreased slightly to 88%.
+- Testing accuracy improved significantly to 65%, reducing overfitting.
+
+Loss and accuracy curves for this improved model are shown below.
+
 ## References
 For further details, refer to the original [paper](https://arxiv.org/abs/1606.03126) on Key-Value Memory Networks.
