@@ -18,6 +18,8 @@ The model is based on **Key-Value Memory Networks**, a neural architecture that 
 3. A weighted representation is compared against *values* (e.g., "Satya Nadella").
 4. The highest similarity score determines the final answer.
 
+<img src="assets/partA.png" style="width:50% height:auto"/>
+
 ## Why KVMemNets?
 KVMemNets allow dynamic data updates without retraining. Though superseded by transformers, they offer an excellent foundation for understanding self-attention mechanisms.
 
